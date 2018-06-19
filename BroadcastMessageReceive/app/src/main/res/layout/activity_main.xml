@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity"
+    android:background="#252D39">
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="0dp"
+    android:text="@string/audio"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:layout_gravity="center_horizontal"
+    android:background="#2980B9"
+    android:textColor="#FFFFFF"
+    android:gravity="center"
+    android:textStyle="bold"/>
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:onClick="silent"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:text="@string/Silent"
+    android:layout_gravity="center_horizontal"
+    android:background="#2980B9"
+    android:textColor="#FFFFFF"/>
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:onClick="ring"
+    android:text="@string/Ring"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_gravity="center_horizontal"
+    android:background="#2980B9"
+    android:textColor="#FFFFFF"/>
+
+  <!-- <Button
+    android:id="@+id/button1"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:onClick="mode"
+    android:text="@string/Mode"
+    android:layout_gravity="center_horizontal"
+    android:background="#457DD7"
+    android:textColor="#FFFFFF"/>  -->
+
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:onClick="vibrate"
+    android:text="@string/Vibrate"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#2980B9"
+    android:textColor="#FFFFFF"/>
+
+   <!-- <Button
+        android:id="@+id/flightMode"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="airplane"
+        android:text="Airplane Mode"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#2980B9"
+        android:textColor="#FFFFFF"/> -->
+<!--
+<TextView
+    android:id="@+id/sms"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="@string/Sms"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_gravity="center_horizontal"
+    android:background="#457DD7"
+    android:textColor="#FFFFFF"
+    android:gravity="center"/>   -->
+
+</LinearLayout>

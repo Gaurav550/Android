@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252D39"
+    tools:context="abc.com.example.hp.broadcastmessagereceive.CheckBoxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="0dp"
+            android:text="Ring Mode Activator"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+            android:background="#2980B9"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+
+            android:textSize="20sp"
+           android:focusable="false"
+            android:clickable="false"
+            android:background="@android:color/transparent"
+            android:text="Allow Messages to turn audio profile to Ring mode"
+            android:textColor="@android:color/white"
+            android:checked="false" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/setProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="10"
+                android:background="#2980B9"
+                android:text="Set Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/tutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_weight="10"
+                android:background="#2980B9"
+                android:text="How to use"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
